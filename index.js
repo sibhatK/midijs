@@ -1,6 +1,4 @@
-'use strict';
-
-exports.File = require('./lib/file').File;
-exports.connect = require('./lib/connect').connect;
-exports.gm = require('./lib/gm');
-exports.error = require('./lib/error');
+export { File } from './lib/file';
+export { connect } from './lib/connect';
+export * as gm from './lib/gm';
+export * as error from './lib/error';
